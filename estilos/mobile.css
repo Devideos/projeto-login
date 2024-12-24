@@ -9,7 +9,7 @@
 
 @media all {
     body {
-        background-image: linear-gradient(to bottom, #49a09d,  #5f2c82);
+        background-image: linear-gradient(to top, #291c0e, #6e473b, #a78d78, #948f89);
         background-repeat: no-repeat;
         height: 100vh;
         width: 100vw;
@@ -33,6 +33,9 @@
         transform: translate(-50%, -50%);
         overflow: hidden; /* deixou a borda superior aredondada*/
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+
+        transition: width .3s, height .3s;
+        -o-transition-timing-function: ease;
     }
 
     section#login > div#imagem {
