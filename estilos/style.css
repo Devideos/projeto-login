@@ -4,3 +4,9 @@
     --cor1: #49a09d;
     --cor2: #5f2c82;
 }
+
+body {
+    background-image: linear-gradient(to bottom, #49a09d,  #5f2c82);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
