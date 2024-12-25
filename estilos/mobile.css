@@ -68,8 +68,26 @@
         margin-bottom: 5px;
     }
 
-    div.campo > label {
+    div.campo > label { /*some com login e senha*/
         display: none;
+    }
+
+    /*configura os emojis*/
+    div.campo > span {
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    }
+
+    /*configura as caixas onde se escreve*/
+    div.campo > input {
+        background-color: #a78d78;
+        border: none;
+        font-size: 1em;
+        height: 100%;
+        border-radius: 7px;
+        width: calc(95% - 34px);
+        transform: translateY(-10px);
     }
 
     /*configuração dos botões*/
