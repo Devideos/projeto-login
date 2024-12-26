@@ -33,7 +33,7 @@
         transform: translate(-50%, -50%);
         overflow: hidden; /* deixou a borda superior aredondada*/
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
-
+        
         transition: width .3s, height .3s;
         transition-timing-function: ease;
     }
@@ -63,6 +63,7 @@
         display: block;
         height: 40px;
         background-color: #d3b398;
+        border: 2px solid #d3b398;
         border-radius: 7px;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -81,13 +82,18 @@
 
     /*configura as caixas onde se escreve*/
     div.campo > input {
-        background-color: #a78d78;
+        background-color: #c5a78e;
         border: none;
         font-size: 1em;
         height: 100%;
         border-radius: 7px;
-        width: calc(95% - 34px);
-        transform: translateY(-10px);
+        width: calc(100% - 45px);
+        transform: translateY(-12px);
+    }
+
+    /*configura as caixas onde se escreve*/
+    div.campo > input:focus-within {
+        background-color: white;
     }
 
     /*configuração dos botões*/

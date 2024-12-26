@@ -3,6 +3,7 @@
 @media screen and (min-width: 700px) and (max-width: 992px) {
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
