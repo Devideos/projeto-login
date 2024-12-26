@@ -88,7 +88,7 @@
         height: 100%;
         border-radius: 7px;
         width: calc(100% - 45px);
-        transform: translateY(-12px);
+        transform: translateY(-13px);
     }
 
     /*configura as caixas onde se escreve*/
